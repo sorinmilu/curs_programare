@@ -1,3 +1,10 @@
+# SimHYMN assembler file
+#
+# Cere succesiv doua numere la consola si afiseaza diferenta lor
+# se incarca in programul simhymn
+# http://www.cburch.com/socs/hymn/index.html
+#
+
 READ                 #Citeste o valoare de la IO si o plaseaza in acumulator
 STOR Va            #Stocheaza valoarea citita in variabila Va
 READ                 #Citeste o valoare de la IO si o plaseaza in acumulator

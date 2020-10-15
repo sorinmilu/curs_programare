@@ -1,3 +1,10 @@
+# SimHYMN assembler file
+#
+# Cere succesiv doua numere la consola si afiseaza rezultatul impartirii lor (partea intreaga)
+# se incarca in programul simhymn
+# http://www.cburch.com/socs/hymn/index.html
+#
+
 LOAD div       #Reseteaza valoarea div la 0
 SUB div        #Pentru a permite rulari succesive
 STOR div       #ale programului    

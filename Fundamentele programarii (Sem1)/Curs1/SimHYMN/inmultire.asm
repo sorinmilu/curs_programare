@@ -1,4 +1,11 @@
-LOAD prod               #Reseteaza valoarea variabilei prod	
+# SimHYMN assembler file
+#
+# Cere succesiv doua numere la consola si afiseaza produsul lor
+# se incarca in programul simhymn
+# http://www.cburch.com/socs/hymn/index.html
+#
+
+LOAD prod               #Reseteaza valoarea variabilei prod
 SUB prod                  #la 0 pentru a permite mai multe
 STOR prod               #rulari succesive ale programului	
 READ                         #Citeste o valoare de la IO
