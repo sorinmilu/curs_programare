@@ -1,0 +1,28 @@
+porneste;
+/*div=0; one=1; va=0; vb=0;*/
+/READ/;
+/*stocheaza numarul citit in Va*/
+STOR Va;
+/READ/;
+/*stocheaza numarul citit in Vb*/
+STOR Vb;
+/*stocheaza numarul citit si in decr pentru a stii de cate ori adunam*/
+while (AC > 0) {
+  LOAD Va;
+  /*Scadem o data Vb din AC*/
+  SUB Vb;
+  /*Stocam noua valuare in VA*/
+  STOR Va;
+  /*Incarcam div in AC*/
+  LOAD div;
+  /*Adaugam 1 la val din AC*/
+  ADD one;
+  /*Stocam AC in div*/
+  STOR div;
+  /*Incarcam Va in AC pentru decizie: daca impartirea s-a terminat, Va = 0 si ciclul se opreste*/
+  LOAD Va
+} else {
+  LOAD div;
+  /WRITE/
+}
+end;

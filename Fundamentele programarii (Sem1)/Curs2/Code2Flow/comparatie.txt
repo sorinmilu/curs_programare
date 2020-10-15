@@ -1,0 +1,26 @@
+porneste;
+/*se stocheaza in registru (AC)*/
+/citeste IO/;
+stocheaza AC in Va;
+/*se stocheaza in registru (AC)*/
+/citeste IO/;
+scade Va din AC;
+if (AC=0) {
+ goto egal; 
+} else {
+  block {
+    |Citeste variabila neq in AC|;
+    /*se scrie ce se afla in (AC)*/
+    /scrie la IO/;
+    end;
+    return;
+  }
+}
+egal:
+block {
+  |Citeste variabila eq in AC|;
+  /*se scrie ce se afla in (AC)*/
+  /scrie la IO/;
+  end;
+  return;
+}

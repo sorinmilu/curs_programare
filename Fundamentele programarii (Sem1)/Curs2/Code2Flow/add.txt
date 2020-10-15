@@ -1,0 +1,10 @@
+porneste;
+/*se stocheaza in registru (AC)*/
+/citeste IO/;
+stocheaza AC in Va;
+/*se stocheaza in registru (AC)*/
+/citeste IO/;
+adauga Va la AC;
+/*se scrie ce se afla in (AC)*/
+/scrie la IO/;
+end;

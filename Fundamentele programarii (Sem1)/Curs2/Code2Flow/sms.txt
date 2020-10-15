@@ -1,0 +1,23 @@
+porneste;
+think: Unde e telefonul;
+Cauta-l;
+if (nu e acolo) {
+  goto think;
+} else {
+  startph: porneste telefonul;
+  if (nu are baterie) {
+    /*Nu ne intereseaza acum felul in care se incarca, e un proces extern */
+    ||pune-l la incarcat||;
+    asteapta pana se incarca;
+    goto startph;
+  } else {
+    cauta destinatarul;
+    if (destinatarul nu exista) {
+      /*proces extern, descris in alta parte*/
+      ||adauga destinatarul in lista de contacte||;
+    }
+    deschide aplicatia SMS;
+    /Scrie textul/;
+    trimite; 
+  }
+}

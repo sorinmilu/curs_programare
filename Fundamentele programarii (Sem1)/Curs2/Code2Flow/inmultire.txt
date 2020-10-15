@@ -1,0 +1,23 @@
+porneste;
+/*prod=0; one=1; va=0; vb=0; decr=0;*/
+/READ/;
+/*stocheaza numarul citit in Va*/
+STOR Va;
+/READ/;
+/*stocheaza numarul citit in Vb*/
+STOR Vb;
+/*stocheaza numarul citit si in decr pentru a stii de cate ori adunam*/
+STOR decr;
+while (AC > 0) {
+  LOAD prod;
+  ADD Va;
+  STOR prod;
+  LOAD decr;
+  SUB one;
+  STOR decr;
+} else {
+  /WRITE/
+}
+end;
+     
+
