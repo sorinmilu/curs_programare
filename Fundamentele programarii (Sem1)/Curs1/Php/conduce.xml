@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<conducatori>
+   <conducator name="lulu">
+       <vehicule>
+           <vehicul>bicicleta</vehicul>
+           <vehicul>masina</vehicul>
+       </vehicule>
+   </conducator>
+   <conducator name="judith">
+       <vehicule>
+           <vehicul>trotineta</vehicul>
+           <vehicul>vapor</vehicul>
+       </vehicule>
+   </conducator>
+   <conducator name="alladin">
+       <vehicule>
+           <vehicul>trotineta</vehicul>
+           <vehicul>role</vehicul>
+           <vehicul>bicicleta</vehicul>
+       </vehicule>
+   </conducator>
+   <conducator name="Heidi">
+       <vehicule>
+           <vehicul>avion</vehicul>
+           <vehicul>role</vehicul>
+           <vehicul>bicicleta</vehicul>
+       </vehicule>
+   </conducator>
+</conducatori>
