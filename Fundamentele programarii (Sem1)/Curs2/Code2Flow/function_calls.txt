@@ -1,0 +1,31 @@
+block main {
+    think: alocă a = 3;
+    think: alocă b = 5;
+    think: alocă c;
+    call putere(a,b);
+    startph: cheamă printf;
+    end;
+    return;
+  }
+
+  block putere {
+    start;
+    think: alocă m = 3;
+    think: alocă n = 5;
+    think: alocă i = 0;
+    think: alocă p = 1;
+    do {
+      call multiplicare(p.m);
+    } while (i<=n);
+    end;
+    return p;
+  }
+
+  block multiplicare {
+    start;
+    think: alocă x;
+    think: alocă y;
+    think: alocă result;
+    result = x * y;
+    return result;
+  }

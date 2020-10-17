@@ -16,7 +16,7 @@ foreach ($matches[0] as $match) {
     echo($match."\n");
 }
 
-echo "\n---Identificarea tuturor patternurilor expresiei regulate---\n\n";
+echo "\n---Inlocuirea tuturor adreselor---\n\n";
 
 $replaced = preg_replace('/[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}/', '[email]', $text);
 echo $replaced."\n";

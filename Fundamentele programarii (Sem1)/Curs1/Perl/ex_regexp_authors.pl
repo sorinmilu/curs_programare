@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 
+# executie: perl vehicule_regexp.php
 
 my $text = 'Giancane, G (Giancane, Gabriella)[ 1 ] ; Swart, JF (Swart, Joost F.)[ 2 ] ; Castagnola, E (Castagnola, Elio)[ 3 ] ; Groll, AH (Groll, Andreas H.)[ 4 ] ;
 Horneff, G (Horneff, Gerd)[ 5,6 ] ; Huppertz, HI (Huppertz, Hans-Iko)[ 7 ] ; Lovell, DJ (Lovell, Daniel J.)[ 8 ] ; Wolfs, T (Wolfs, Tom)[ 2 ] ;
