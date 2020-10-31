@@ -4,8 +4,9 @@
 
 my $text = ' Lulu conduce bicicleta si masina; Judith conduce trotineta si vapor; Aladin conduce trotineta role si bicicleta; Heidi conduce avion role si bicicleta.';
 
-$text =~ s/([A-Z]\w+)\sconduce.*?bicicleta.*?(;|\.)/$1/g;
-
 print "\nCine conduce bicicleta\n";
-print $text ."\n";
+
+while ($text =~ /([A-Z]\w+)\sconduce[^;]*?bicicleta.*?(;|\.)/g) {
+    print $1."\n";
+}
 

@@ -1,0 +1,21 @@
+
+<!--Contributia lui Ghermanescu Florin Adrian-->
+<!-- se ruleaza prin incarcarea lui intr-un browser (firefox, chrome) -->
+
+<html>
+<!--root tag pt inceperea documentului html-->
+<style>
+/* tag pt inceperea style-ului - se poate adauga si inline */
+.vehicul {display: none;}
+/* toate elementele apartinand clasei vehicul nu se vor afisa */
+.vehicul.bicicleta {display: block;}
+/* suprascrierea declaratiei anterioare, astfel toate elementele care apartin clasei vehicul SI clasei bicicleta se vor afisa sub forma de block - selectorul este recunoscut de la IE7*/
+</style>
+<!--tag pt incheierea style-ului-->
+<p class="vehicul bicicleta masina">Lulu</p>
+<!--html tag paragraph care atribuie textul "Lulu" claselor vehicul, bicicleta si masina-->
+<p class="vehicul trotineta vapor">Judith</p>
+<p class="vehicul trotineta role bicicleta">Aladin</p>
+<p class="vehicul avion role bicicleta">Heidi</p>
+</html>
+<!--root tag pt incheierea documentului html-->
