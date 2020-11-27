@@ -27,14 +27,8 @@ int main() {
      //-----
      //-----
 
-     //for-----
-     //-----
-     //for-----
-     //if-----
-     //-----
-     //-----
-     //-----
-     //-----
+     //doar un for: for ();
+     
     printf("Suma elementelor de pe diagonala dreapta :%d\n",sum);
     return 0;
   }
