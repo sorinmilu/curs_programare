@@ -17,7 +17,7 @@ printf ("b / a este: %f\n", b / a);
 a++;
 printf ("a++ este: %f\n", a);
 a=10.12; /* readucem a la valoarea initiala */
-A--;
+a--;
 printf ("a-- este: %f\n", a);
 return 0;
 }
