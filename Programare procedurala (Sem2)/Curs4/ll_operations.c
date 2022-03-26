@@ -1,5 +1,3 @@
-//gcc -Wall ll_operations.c -o ll_operations
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,7 +11,7 @@ int push(node_t * head, int val);
 int f_push(node_t ** head, int val);
 int pop(node_t * head);
 int f_pop(node_t ** head);
-int remove_by_index(node_t ** head, int n);
+int remove_by_index(node_t * head, int n);
 
 int main()
 {
@@ -41,6 +39,9 @@ int main()
     print_list(head);
     pop(head);
     puts("after pop");
+    print_list(head);
+    int ff = remove_by_index(head, 2);
+    printf ("ff: %d\n", ff);
     print_list(head);
 
 }
@@ -122,14 +123,14 @@ int pop(node_t * head) {
     return retval;
 }
 
-int remove_by_index(node_t ** head, int n) {
+int remove_by_index(node_t * head, int n) {
     int i = 0;
     int retval = -1;
-    node_t * current = *head;
+    node_t * current = head;
     node_t * temp_node = NULL;
 
     if (n == 0) {
-        return pop(*head);
+        return pop(head);
     }
 
     for (i = 0; i < n-1; i++) {
@@ -143,10 +144,5 @@ int remove_by_index(node_t ** head, int n) {
     retval = temp_node->val;
     current->next = temp_node->next;
     free(temp_node);
-
     return retval;
-
 }
-
-
-
