@@ -5,7 +5,7 @@ int main()
   int a = 23;
    int b = 44;
    int c = 99;
-   int max1 = a>b ? a>c?a:c : b>c?b:c;
+   int max1 = a > b && a > c ? a : b > c ? b : c;
    int max = 0;
    if (a > b) {
        if (a > c) {
